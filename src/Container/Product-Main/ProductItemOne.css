@@ -1,0 +1,80 @@
+.footer-container {
+    border-bottom: 1px solid rgb(206, 199, 199);
+    font-size: 4rem;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 400;
+    border: 0.5px 0;
+    border-top: 1px solid rgb(206, 199, 199);
+    width: 100%;
+    padding: 3rem;
+    background-color: #384353;
+  }
+  
+.fifth-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    background-color: #384353;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5px;
+    height: fit-content;
+    box-sizing: border-box;
+    
+  }
+  
+
+  .price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+
+}
+  .name-pro {
+    font-size: 1.2rem;
+    padding-right: 3rem;
+
+    color: #f3f3f3;
+  }
+  
+  .price-pro {
+    font-size: 1.4rem;
+    padding-left: 3rem;
+
+    color: #f3f3f3;
+  }
+  
+
+  
+  .chair-image{display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+  
+  .image-look {
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  #shop{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .decor-shop {
+    border-top: 1px solid #dacdcd;
+    border-bottom: 1px solid #dacdcd;
+    padding: 3rem 0;
+    background-color: #384353;
+    color: #f3f3f3;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+  }

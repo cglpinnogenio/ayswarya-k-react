@@ -1,0 +1,122 @@
+.second-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+  }
+  
+  .second-padding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-content {
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: reckless;
+    width: 88%;
+    font-weight: 500; 
+  }
+  
+  .paragraph-content {
+    font-size: 2rem;
+    padding-bottom: 1.3rem;
+    font-family: reckless;
+  }
+  
+  .image-readme {
+    border: 1px solid rgb(207, 203, 203);
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .em3-input {
+    font-size: 6rem;
+  }
+  
+  .content {
+    grid-row-start: 5;
+    grid-column-start: 5;
+    grid-row-end: 10;
+    grid-column-end: 10;
+    text-align: center;
+    transform: translateY(-55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+  }
+  
+  .left-image {
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-row-end: 9;
+    grid-column-end: 4;
+    transform: translateY(-80%);
+    margin-top: 20%;
+  }
+  
+ 
+  .right-bottom-image {
+    grid-row-start: 9;
+    grid-column-start: 8;
+    grid-row-end: 11;
+    grid-column-end: 11;
+    transform: translate(20%, -75%);
+    margin-top: 5%;
+   
+  }
+  
+  #rightdown {
+    height: 95%;
+    width: 90%;
+  }
+  
+  
+  .right-image {
+    grid-row-start: 6;
+    grid-column-start: 11;
+    grid-row-end: 8;
+    grid-column-end: 13;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: translate(0%, -50%);
+  
+  }
+  .top-right-image {
+    grid-row-start: 3;
+    grid-column-start: 10;
+    grid-row-end: 5;
+    grid-column-end: 11;
+    transform: translatey(0%);
+  }
+  
+  
+  .top-image {
+    grid-row-start: 2;
+    grid-column-start: 6;
+    grid-row-end: 4;
+    grid-column-end: 8;
+    transform: translate(10%, -35%);
+    
+  }
+  
+  
+  .left-top-image {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 4;
+    transform: translateY(-100%);
+  }
+  

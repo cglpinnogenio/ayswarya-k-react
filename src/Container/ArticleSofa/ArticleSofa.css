@@ -1,0 +1,80 @@
+.enjoy-input {
+    padding: 4rem;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    color: #000;
+    font-weight: 400;
+    border: 10px 0;
+    border-bottom: 1px solid #dacdcd;
+    min-width: 100%;
+  }
+  
+  .sofa-content {
+    height: 100vh;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .side-view {
+    font-size: 2rem;
+    transform: rotatez(270deg);
+    max-width: 13%;
+    color: #000;
+    padding: 1rem;
+    align-self: flex-end;
+    margin-bottom: 3rem;
+  }
+  
+  .content-label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 40%;
+    padding: 2rem;
+    border-left: 1px solid #dacdcd;
+    height: 100%;
+  }
+  
+  .header-sofa {
+    font-size: 5rem;
+    margin: 15% 0;
+  }
+  
+  .paragraph-sofa {
+    font-size: 1.6rem;
+  }
+  
+  .button-sofa {
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top: 3rem;
+  
+  }
+  
+  .image-sofa {
+    width: 100%;
+    background-image: url(../../Assets/Images/sofaup.png);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+  }
+  .seemore {
+    font-size: 4rem;
+    border-top: 1px solid #dacdcd;
+    border-bottom: 1px solid #dacdcd;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    /* height: 6rem; */
+  }

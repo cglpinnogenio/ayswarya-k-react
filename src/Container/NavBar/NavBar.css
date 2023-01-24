@@ -1,0 +1,115 @@
+
+.navigation-container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #dfdbdb;
+    top: 0;
+    width: 100%;
+    max-width: 1500px;
+  
+  }
+  
+  
+  .menu-input {
+    font-size: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-lenght {
+    width: 3rem;
+    height: 3px;
+    background-color: #c7c7c7;
+    margin: 3px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon-x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #f3f3f3;
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 10px;
+    font-weight: 200;
+    cursor: pointer;
+    background-color: #000;
+  
+  }
+  
+  .space {
+    padding: 0 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .menu-name {
+    font-size: 5rem;
+  
+  }
+  
+  .menu-bag {
+    font-size: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .living-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assets/Images/livingroom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 1500px;
+    position: relative;
+  }
+  
+  .living-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    color: #f3f3f3;
+    width: 55%;
+  
+  }
+  
+  .living-paragraph {
+    font-size: 6.5rem;
+    margin-top: calc(100%-50%);
+    text-align: center;
+    padding: 1px;
+    width: 70%;
+  }
+  
+  .living-button {
+    border: 1x solid #f3f3f3;
+    background-color: #f3f3f3;
+    color: #000;
+    min-width: 10%;
+    text-align: center;
+    padding: 7px;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  em {
+    font-size: 6.5rem;
+  }

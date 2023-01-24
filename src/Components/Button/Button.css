@@ -1,0 +1,26 @@
+.image-readme {
+  border: 1px solid rgb(207, 203, 203);
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  padding: 4px;
+  border-radius: 8px;
+  margin-top: 3rem;
+  cursor: pointer;
+  width: 40%;
+  background-color: #f3f3f3;
+
+}
+
+button {
+  border: 1x solid #f3f3f3;
+  background-color: #f3f3f3;
+  color: #000;
+  min-width: 10%;
+  text-align: center;
+  padding: 7px;
+  font-size: 1.6rem;
+  border-radius: .8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}

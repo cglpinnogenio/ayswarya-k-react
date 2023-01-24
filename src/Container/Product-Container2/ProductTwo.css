@@ -1,0 +1,54 @@
+.product-sname {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    /* padding-right: 3rem; */
+  }
+  
+  .product-sprice {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    padding-left: 3rem;
+  }
+  
+  .images-container {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../../Assets/Images/productimage2/Rectangle 546.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-position: center;
+  }
+  
+  #image-container {
+    width: 100%;
+  }
+  
+  .image-right {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    border: 1px solid #f3f3f3;
+    /* padding: 1rem; */
+    background-color: #f3f3f3;
+  }
+  
+  .image-left-small {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    /* padding: 1rem; */
+  }
+  
+  /* #subimage {
+    height: 85%;
+    width: 80%;
+  } */

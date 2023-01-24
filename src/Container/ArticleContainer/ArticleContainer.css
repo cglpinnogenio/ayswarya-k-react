@@ -1,0 +1,10 @@
+.article-decor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }

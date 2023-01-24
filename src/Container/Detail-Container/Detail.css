@@ -1,0 +1,121 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border-left: 1px solid #e1e3e8;
+    margin-left: 5%;
+  padding-right: 10%;
+  }
+  
+  .heading-input {
+    font-size: 5rem;
+    margin-top: 10%;
+  }
+  
+  .subtitle-content {
+    font-size: 1.8rem;
+    margin: 4rem 0;
+  }
+  
+  .subtitle-paragraph {
+    font-size: 1.6rem;
+    width: 40%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  
+  .container-chairimage {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 1px solid #e1e3e8;
+   
+    width: 100%;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .text-imagepic {
+    font-size: 2rem;
+    transform: rotatez(270deg);
+    max-width: 5%;
+    color: #000;
+    padding: 1rem;
+    align-self: flex-end;
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  
+  .input-colum {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    border-left: 1px solid #e1e3e8;
+  
+  }
+  
+  .left-picture {
+    padding: 15px 0 15px 23px;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .subdivisionright {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    border-left: 1px solid #e1e3e8;
+    padding-left: 15px;
+  }
+  
+  .image-division {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  
+  #imagefour {
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  #imagethree {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #imageeight {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .bottom-picture {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../../Assets/Images/Details/pic6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #imagesix {
+    max-width: 100%;
+  }
+  
+  .ab-picture {
+    position: absolute;
+    left: 49%;
+    top: 60px;
+  }
+  
+  #ab-pic {
+    /* width: 50%; */
+    height: 70%;
+  }
