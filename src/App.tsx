@@ -6,6 +6,7 @@ import ArticleSofa from "./Container/ArticleSofa/ArticleSofa";
 import Detail from "./Container/Detail-Container/Detail";
 import Footer from "./Container/FooterContainer/Footer";
 import LightChair from "./Container/LightChairContainer/LightChair";
+import LoginForm from "./Container/RegistrationForm/Registration";
 import Lookbook from "./Container/Lookbook-Container/Lookbook";
 import NavBar from "./Container/NavBar/NavBar";
 import ProductTwo from "./Container/Product-Container2/ProductTwo";
@@ -28,6 +29,8 @@ function App() {
         <ArticleContainer/>
         <Promotion/>
         <Footer/>
+        <LoginForm/>
+
       </div>
     </div>
   );
